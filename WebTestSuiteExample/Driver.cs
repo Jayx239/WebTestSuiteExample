@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using WebTestSuiteExample.EpicSuites;
 
 namespace WebTestSuiteExample
 {
@@ -10,6 +7,9 @@ namespace WebTestSuiteExample
     {
         static void Main(string[] args)
         {
+            BrowseSharpSiteEpicSuite epicSuite = new BrowseSharpSiteEpicSuite();
+            epicSuite.Execute();
+            epicSuite.PrintSummaryString();
         }
     }
 }
