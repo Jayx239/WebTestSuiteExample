@@ -1,1 +1,0 @@
-This is where all Master Test Suites will be placed.
